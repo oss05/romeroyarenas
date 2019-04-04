@@ -98,7 +98,7 @@ button {
     /* border: 1px solid yellow; */
     width: 70%;
     height: 9em;
-    background-color:#ffffffbf;
+    background-color: #ffffffbf;
     padding-left: 14em;
     display: flex;
     align-items: center;
@@ -107,10 +107,9 @@ button {
 .tituloSeccion {
     font-size: 100px;
     color: #7d1c57;
-    font-weight: 200; 
+    font-weight: 200;
     letter-spacing: 10pt !important;
 }
-
 
 /* --------fin header------------ */
 
@@ -228,6 +227,15 @@ button {
     width: 55vw;
 }
 
+.contactoUser {
+    color: #000;
+    margin-bottom: 1em;
+}
+
+.contactoUser:hover {
+    color: #7d1c57;
+}
+
 .seccion2 {
     /* border: solid 1px greenyellow; */
     width: 100%;
@@ -278,10 +286,10 @@ a.avisoPrivacidad:hover {
 }
 
 .imgLogoSoma {
-    width: 100%;
+    width: 80%;
     height: 50%;
     grid-column-start: 4;
-    grid-row-start: 2;
+    grid-row-start: 4;
 }
 
 @media only screen and (max-width: 600px) {
@@ -295,7 +303,7 @@ a.avisoPrivacidad:hover {
         height: 35vh;
         /* border: solid 1px red; */
         margin-bottom: 0;
-      }
+    }
     .areas_de_servicio_contenido {
         /* border: solid 1px blue; */
         width: 100%;
@@ -331,21 +339,20 @@ a.avisoPrivacidad:hover {
     .whiteDecorationRect:hover {
         color: transparent;
     }
-
     .contenedorSeccion {
         /* border: 1px solid yellow; */
         width: 70%;
         height: 5em;
-        background-color:#ffffffbf;
+        background-color: #ffffffbf;
         padding-left: 2em;
         display: flex;
         align-items: center;
+        margin-top: 3em;
     }
-    
     .tituloSeccion {
         font-size: 60px;
         color: #7d1c57;
-        font-weight: 200; 
+        font-weight: 200;
         letter-spacing: 4pt !important;
     }
     /* ---------------------Fin navbar------------------ */
@@ -374,6 +381,51 @@ a.avisoPrivacidad:hover {
         display: flex;
         /* grid-template-columns: repeat(6, 1fr);
       grid-template-rows: repeat(4, 25%); */
+        align-items: flex-end;
+    }
+    .designed {
+        width: 100%;
+        height: 50%;
+        font-size: 80%;
+        margin-top: 20px;
+        padding-left: 30%;
+    }
+    .imgLogoSoma {
+        /* border: solid 1px orangered; */
+        width: 30%;
+        height: 35%;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .listanav a {
+        text-decoration: none;
+        /* border: solid 1px red; */
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        transition: all 0.1s ease-out;
+        /* padding-left: 60% !important; */
+    }
+    .contenedorSeccion {
+        /* border: 1px solid yellow; */
+        width: 60%;
+        height: 9em;
+        background-color: #ffffffbf;
+        padding-left: 5em;
+        display: flex;
+        align-items: center;
+        margin-top: 3em;
+    }
+    .link-nav {
+        /* border: solid 1px blue; */
+        margin-left: 5vw;
+    }
+    .logo_soma {
+        /* border: solid 2px #7d1c57; */
+        display: flex;
+        /* grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 25%); */
+        align-items: flex-end;
     }
     .designed {
         width: 100%;
@@ -383,7 +435,7 @@ a.avisoPrivacidad:hover {
     }
     .imgLogoSoma {
         /* border: solid 1px orangered; */
-        width: 70%;
-        height: 80%;
+        width: 40%;
+        height: 30%;
     }
 }

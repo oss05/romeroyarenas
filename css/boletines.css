@@ -114,20 +114,20 @@ button {
 /* --------fin header -----------
 -----------section boletines---------------- */
 
-.boletines{
+.boletines {
     width: 100%;
     height: auto;
     /* border: solid 1px blue; */
 }
 
-.contenedorInterno{
-    width:50%;
+.contenedorInterno {
+    width: 50%;
     height: auto;
     /* border: solid 1px red; */
     margin-top: 5em;
 }
 
-.contenedorInternoDos{
+.contenedorInternoDos {
     width: 50%;
     height: auto;
     /* border: solid 1px green; */
@@ -135,7 +135,7 @@ button {
     margin-bottom: 5em;
 }
 
-.imagen19{
+.imagen19 {
     /* border: solid 1px yellow; */
     width: 100%;
     height: 8em;
@@ -144,7 +144,7 @@ button {
     background-repeat: no-repeat;
 }
 
-.imagen18{
+.imagen18 {
     /* border: solid 1px yellow; */
     width: 100%;
     height: 8em;
@@ -153,45 +153,59 @@ button {
     background-repeat: no-repeat;
 }
 
-.contenedorListaBoletines19{
+.imagen17 {
+    /* border: solid 1px yellow; */
+    width: 100%;
+    height: 8em;
+    background-image: url('../img/boletines2017.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contenedorListaBoletines19 {
     /* border: solid 1px purple; */
     width: initial;
 }
 
-.contenedorListaBoletines18{
+.contenedorListaBoletines18 {
     /* border: solid 1px purple; */
     width: initial;
+    margin-left: -2em;
 }
 
-.listaBoletines{
+.contenedorListaBoletines17 {
+    /* border: solid 1px purple; */
+    width: initial;
+    margin-bottom: 2em;
+}
+
+.listaBoletines {
     color: #929394;
     font-family: 'Montserrat', sans-serif;
-    
 }
 
-.listaBoletines>li{
+.listaBoletines>li {
     color: #929394;
     font-family: 'Montserrat', sans-serif;
     list-style: none;
     margin-top: 2em;
     font-size: 150%;
     letter-spacing: 1pt;
-    }
+    transition: 0.1s all ease;
+}
 
-
-.listaBoletines:hover{
+.listaBoletines:hover {
     color: #7d1c57;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
-.listaBoletines>li:hover{
+.listaBoletines>li:hover {
     color: #000;
     font-family: 'Montserrat', sans-serif;
     list-style: none;
     border-bottom: 2px #7d1c57 solid;
     font-size: 155%;
-    
 }
 
 /* --------------------footer------------------ */
@@ -223,6 +237,15 @@ button {
     background-color: #7d1c57;
     height: 1px;
     width: 55vw;
+}
+
+.contactoUser {
+    color: #000;
+    margin-bottom: 1em;
+}
+
+.contactoUser:hover {
+    color: #7d1c57;
 }
 
 .seccion2 {
@@ -275,10 +298,10 @@ a.avisoPrivacidad:hover {
 }
 
 .imgLogoSoma {
-    width: 100%;
+    width: 80%;
     height: 50%;
     grid-column-start: 4;
-    grid-row-start: 2;
+    grid-row-start: 4;
 }
 
 @media only screen and (max-width: 600px) {
@@ -292,58 +315,21 @@ a.avisoPrivacidad:hover {
         height: 35vh;
         /* border: solid 1px red; */
         margin-bottom: 0;
-      }
-      
-    .areas_de_servicio_contenido {
-        /* border: solid 1px blue; */
-        width: 100%;
-        height: auto;
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
     }
-    .decorationWhiteRects {
-        /* border: solid 1px olivedrab; */
-        width: 85%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .whiteDecorationRect {
-        /* border: solid 1px red; */
-        width: 100%;
-        height: 38px;
-        text-align: left;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        display: flex;
-        margin-top: 1.8em;
-        background-color: #f1f2f2;
-    }
-    .whiteDecorationRect a {
-        margin-left: -20px;
-        color: black;
-        text-decoration: none;
-        font-size: 0.8em;
-    }
-    .whiteDecorationRect:hover {
-        color: transparent;
-    }
-
     .contenedorSeccion {
         /* border: 1px solid yellow; */
         width: 75%;
         height: 5em;
-        background-color:#ffffffbf;
+        background-color: #ffffffbf;
         padding-left: 2em;
         display: flex;
         align-items: center;
+        margin-top: 4em;
     }
-    
     .tituloSeccion {
         font-size: 50px;
         color: #7d1c57;
-        font-weight: 200; 
+        font-weight: 200;
         letter-spacing: 4pt !important;
     }
     /* ---------------------Fin navbar------------------ */
@@ -356,24 +342,22 @@ a.avisoPrivacidad:hover {
         background-size: cover;
         background-position: left;
     }
-
-    .contenedorInterno{
-        width:100%;
+    .contenedorInterno {
+        width: 100%;
         height: auto;
         /* border: solid 1px red; */
         margin-top: 1em;
         left: 0;
     }
-    
-    .contenedorInternoDos{
+    .contenedorInternoDos {
         width: 100%;
         height: auto;
         /* border: solid 1px green; */
         margin-left: 0 !important;
         margin-bottom: 1em;
+        margin-top: 3em;
     }
-    
-    .imagen19{
+    .imagen19 {
         /* border: solid 1px yellow; */
         width: 100%;
         height: 3em;
@@ -381,8 +365,7 @@ a.avisoPrivacidad:hover {
         background-size: contain;
         background-repeat: no-repeat;
     }
-    
-    .imagen18{
+    .imagen18 {
         /* border: solid 1px yellow; */
         width: 100%;
         height: 3em;
@@ -390,48 +373,49 @@ a.avisoPrivacidad:hover {
         background-size: contain;
         background-repeat: no-repeat;
     }
-    
-    .contenedorListaBoletines19{
+    .imagen17 {
+        /* border: solid 1px yellow; */
+        width: 100%;
+        height: 3em;
+        background-image: url('../img/boletines2017.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 3rem;
+    }
+    .contenedorListaBoletines19 {
         /* border: solid 1px purple; */
         width: inherit;
+        padding-right: 1.5em;
     }
-    
-    .contenedorListaBoletines18{
+    .contenedorListaBoletines18 {
         /* border: solid 1px purple; */
         width: initial;
+        padding: 0 2em;
     }
-    
-    .listaBoletines{
+    .listaBoletines {
         color: #929394;
         font-family: 'Montserrat', sans-serif;
-        
     }
-    
-    .listaBoletines>li{
+    .listaBoletines>li {
         color: #929394;
         font-family: 'Montserrat', sans-serif;
         list-style: none;
         margin-top: 2em;
         font-size: 100%;
         letter-spacing: 1pt;
-        }
-    
-    
-    .listaBoletines:hover{
+    }
+    .listaBoletines:hover {
         color: #7d1c57;
         font-family: 'Montserrat', sans-serif;
         text-decoration: none;
     }
-    
-    .listaBoletines>li:hover{
+    .listaBoletines>li:hover {
         color: #000;
         font-family: 'Montserrat', sans-serif;
         list-style: none;
         border-bottom: 2px #7d1c57 solid;
         font-size: 105%;
-        
     }
-
     .seccion2 {
         /* border: solid 1px blue; */
         margin-top: 20px;
@@ -448,6 +432,82 @@ a.avisoPrivacidad:hover {
         display: flex;
         /* grid-template-columns: repeat(6, 1fr);
       grid-template-rows: repeat(4, 25%); */
+        align-items: flex-end;
+    }
+    .designed {
+        width: 100%;
+        height: 50%;
+        font-size: 80%;
+        margin-top: 20px;
+        padding-left: 30%;
+    }
+    .imgLogoSoma {
+        /* border: solid 1px orangered; */
+        width: 30%;
+        height: 35%;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .listanav a {
+        text-decoration: none;
+        /* border: solid 1px red; */
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        transition: all 0.1s ease-out;
+        /* padding-left: 60% !important; */
+    }
+    .contenedorSeccion {
+        /* border: 1px solid yellow; */
+        width: 68%;
+        height: 9em;
+        background-color: #ffffffbf;
+        padding-left: 2em;
+        display: flex;
+        align-items: center;
+        margin-top: 3em;
+    }
+    .link-nav {
+        /* border: solid 1px blue; */
+        margin-left: 5vw;
+    }
+    .contenedorInterno {
+        width: 80%;
+        height: auto;
+        /* border: solid 1px red; */
+        margin-top: 5em;
+    }
+    .contenedorInternoDos {
+        width: 80%;
+        height: auto;
+        /* border: solid 1px green; */
+        margin-left: 20%;
+        margin-bottom: 5em;
+        margin-top: 5em;
+    }
+    .contenedorListaBoletines19 {
+        /* border: solid 1px purple; */
+        width: inherit;
+        margin-top: -3em;
+    }
+    .contenedorListaBoletines18 {
+        /* border: solid 1px purple; */
+        width: initial;
+        padding-right: 2em;
+        margin-top: -3em;
+    }
+    .contenedorListaBoletines17 {
+        /* border: solid 1px purple; */
+        width: initial;
+        padding-right: 2em;
+        margin-top: -3em;
+    }
+    .logo_soma {
+        /* border: solid 2px #7d1c57; */
+        display: flex;
+        /* grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 25%); */
+        align-items: flex-end;
     }
     .designed {
         width: 100%;
@@ -457,7 +517,7 @@ a.avisoPrivacidad:hover {
     }
     .imgLogoSoma {
         /* border: solid 1px orangered; */
-        width: 70%;
-        height: 80%;
+        width: 40%;
+        height: 30%;
     }
 }

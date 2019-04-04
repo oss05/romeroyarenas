@@ -130,7 +130,7 @@ button {
 .aServicioFoto {
   /* border: solid 1px orangered; */
   width: 55%;
-  height: 30em;
+  height: 35em;
   background-image: url('../img/aServicio.jpg');
   background-size: cover;
   background-position: center;
@@ -153,8 +153,9 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   display: flex;
-  margin-top: 1.5em;
-  transition: all ease 1s;
+  margin-top: 2em;
+  font-size: 20px;
+  transition: 1s all ease;
 }
 
 .whiteDecorationRectIn {
@@ -164,7 +165,7 @@ button {
   height: 35px;
 }
 
-.whiteDecorationRectIn p{
+.whiteDecorationRectIn p {
   /* border: solid 1px red; */
   background-color: #f1f2f2;
   width: 20%;
@@ -202,7 +203,7 @@ button {
 /* -------seccion mapa------------- */
 
 .mapa {
-  margin-top: 20px;
+  margin: 2em 0;
   /* border: solid 1px rgb(106, 255, 0); */
   width: 100%;
   height: 400px;
@@ -217,10 +218,12 @@ button {
   /* margin-top: 40px !important; */
   width: 100%;
   height: auto;
+  margin-top: -2em !important;
 }
 
 .seccion1 {
   /* border: solid 1px rgb(0, 145, 255); */
+  padding-top: 1em !important;
   width: 100%;
   height: 80%;
   display: flex;
@@ -238,6 +241,15 @@ button {
   background-color: #7d1c57;
   height: 1px;
   width: 55vw;
+}
+
+.contactoUser {
+  color: #000;
+  margin-bottom: 1em;
+}
+
+.contactoUser:hover {
+  color: #7d1c57;
 }
 
 .seccion2 {
@@ -336,7 +348,8 @@ a.avisoPrivacidad:hover {
   .titulo_areas_servicio {
     /* border: solid 1px rgb(76, 50, 205); */
     width: 100%;
-    height: 80%;
+    height: 70%;
+    margin:0 -4em !important;
   }
   .aServicioFoto {
     display: none;
@@ -359,7 +372,7 @@ a.avisoPrivacidad:hover {
   .whiteDecorationRect {
     /* border: solid 1px red; */
     width: 100%;
-    height: 38px;
+    height: 60px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -375,6 +388,7 @@ a.avisoPrivacidad:hover {
   }
   .whiteDecorationRect:hover {
     color: transparent;
+    height: 60px;
   }
   .seccion_boletines {
     /* border: solid 1px rgb(255, 0, 191); */
@@ -400,7 +414,94 @@ a.avisoPrivacidad:hover {
     /* border: solid 2px #7d1c57; */
     display: flex;
     /* grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 25%); */
+    align-items: flex-end;
+  }
+  .designed {
+    width: 100%;
+    height: 50%;
+    font-size: 80%;
+    margin-top: 20px;
+    padding-left: 30%;
+  }
+  .imgLogoSoma {
+    /* border: solid 1px orangered; */
+    width: 30%;
+    height: 35%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .listanav a {
+    text-decoration: none;
+    /* border: solid 1px red; */
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.1s ease-out;
+    /* padding-left: 60% !important; */
+  }
+  .contenedorSeccion {
+    /* border: 1px solid yellow; */
+    width: 68%;
+    height: 9em;
+    /* background-color: #ffffffbf; */
+    padding-left: 2em;
+    display: flex;
+    align-items: center;
+  padding-top: 12em;
+  }
+  .link-nav {
+    /* border: solid 1px blue; */
+    margin-left: 5vw;
+  }
+
+  .titulo_areas_servicio {
+    /* border: solid 1px rgb(76, 50, 205); */
+    width: 100%;
+    height: 100%;
+  }
+  .aServicioFoto {
+    /* border: solid 1px orangered; */
+    width: 55%;
+    height: 50em;
+    background-image: url('../img/aServicio.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .whiteDecorationRect {
+    /* border: solid 1px red; */
+    width: 80%;
+    height: 80px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    display: flex;
+    margin-top: 1.5em;
+    background-color: #f1f2f2;
+    font-size: 20px;
+  }
+  .whiteDecorationRectIn {
+    /* border: solid 1px red; */
+    background-color: #f1f2f2;
+    width: 20%;
+    height: 35px;
+  }
+  .seccion_boletines {
+    /* border: solid 1px rgb(255, 0, 191); */
+    width: 65vw;
+    margin-top: 30px;
+    height: 10em;
+    background-image: url('../img/boletines.png');
+    background-size: cover;
+    background-position: left;
+  }
+  .logo_soma {
+    /* border: solid 2px #7d1c57; */
+    display: flex;
+    /* grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 25%); */
+    align-items: flex-end;
   }
   .designed {
     width: 100%;
@@ -410,7 +511,7 @@ a.avisoPrivacidad:hover {
   }
   .imgLogoSoma {
     /* border: solid 1px orangered; */
-    width: 70%;
-    height: 80%;
+    width: 30%;
+    height: 30%;
   }
 }
