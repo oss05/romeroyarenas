@@ -328,10 +328,21 @@ a.avisoPrivacidad:hover {
     display: initial !important;
     background-color: #3a3c3e;
   }
+  .btn-secondary {
+    background-color: #fff !important;
+    border: 1px solid #000 !important;
+  }
   .img_arrow {
     width: 1.5em;
     height: 1.5em;
     margin-left: 1em;
+  }
+  .dropdown-menu {
+    width: 90vw !important;
+  }
+  .dropdown-item {
+    display: contents !important;
+    white-space: initial !important;
   }
   .areas_de_servicio_contenido {
     /* border: solid 1px blue; */
@@ -516,7 +527,6 @@ a.avisoPrivacidad:hover {
     /* border: solid 1px blue; */
     margin-left: 5vw;
   }
-  
   .contenedorIzq {
     /* border: solid 1px red; */
     width: 100%;
