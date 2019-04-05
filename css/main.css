@@ -48,6 +48,9 @@ i {
   color: #7d1c57;
 }
 
+.hero img{
+  width: 250px;
+}
 /* ----------navbar responsive toggler------------ */
 
 .dot, .dot:before, .dot:after {
@@ -117,6 +120,11 @@ button {
   width: 60vw;
   height: 100%;
 }
+
+.titulo_areas_servicio > p {
+ font-size: 0;
+}
+
 
 .areas_de_servicio_contenido {
   /* border: solid 1px blue; */
@@ -349,7 +357,23 @@ a.avisoPrivacidad:hover {
     /* border: solid 1px rgb(76, 50, 205); */
     width: 100%;
     height: 60%;
+    background-color: #f1f2f2;
   }
+
+  .titulo_areas_servicio > img {
+    display: none;
+  }
+
+  .titulo_areas_servicio > p {
+    /* display: initial; */
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 3%;
+    color: #000;
+    border-bottom: solid 2px #7d1c57;
+  }
+  
   
   .aServicioFoto {
     display: none;
