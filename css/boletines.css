@@ -29,8 +29,9 @@ header {
 
 .link-nav {
     /* border: solid 1px blue; */
-    margin-left: 8vw;
-}
+    margin-left: 6vw;
+    width: auto !important;
+  }
 
 .listanav a {
     text-decoration: none;
@@ -41,12 +42,12 @@ header {
 }
 
 .listanav a:hover {
-    border-bottom: #7d1c57 2px solid;
+    border-bottom: #8A0736 2px solid;
     font-size: 101%;
 }
 
 i {
-    color: #7d1c57;
+    color: #8A0736;
 }
 
 /* ----------navbar responsive toggler------------ */
@@ -106,7 +107,7 @@ button {
 
 .tituloSeccion {
     font-size: 100px;
-    color: #7d1c57;
+    color: #8A0736;
     font-weight: 200;
     letter-spacing: 10pt !important;
 }
@@ -195,7 +196,7 @@ button {
 }
 
 .listaBoletines:hover {
-    color: #7d1c57;
+    color: #8A0736;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
@@ -204,7 +205,7 @@ button {
     color: #000;
     font-family: 'Montserrat', sans-serif;
     list-style: none;
-    border-bottom: 2px #7d1c57 solid;
+    border-bottom: 2px #8A0736 solid;
     font-size: 155%;
 }
 
@@ -234,7 +235,7 @@ button {
 }
 
 .hrFooter {
-    background-color: #7d1c57;
+    background-color: #8A0736;
     height: 1px;
     width: 55vw;
 }
@@ -245,7 +246,7 @@ button {
 }
 
 .contactoUser:hover {
-    color: #7d1c57;
+    color: #8A0736;
 }
 
 .seccion2 {
@@ -278,7 +279,7 @@ a.avisoPrivacidad {
 }
 
 a.avisoPrivacidad:hover {
-    border-bottom: solid 2px #7d1c57;
+    border-bottom: solid 2px #8A0736;
     font-size: 108%;
 }
 
@@ -328,7 +329,7 @@ a.avisoPrivacidad:hover {
     }
     .tituloSeccion {
         font-size: 50px;
-        color: #7d1c57;
+        color: #8A0736;
         font-weight: 200;
         letter-spacing: 4pt !important;
     }
@@ -405,7 +406,7 @@ a.avisoPrivacidad:hover {
         letter-spacing: 1pt;
     }
     .listaBoletines:hover {
-        color: #7d1c57;
+        color: #8A0736;
         font-family: 'Montserrat', sans-serif;
         text-decoration: none;
     }
@@ -413,7 +414,7 @@ a.avisoPrivacidad:hover {
         color: #000;
         font-family: 'Montserrat', sans-serif;
         list-style: none;
-        border-bottom: 2px #7d1c57 solid;
+        border-bottom: 2px #8A0736 solid;
         font-size: 105%;
     }
     .seccion2 {

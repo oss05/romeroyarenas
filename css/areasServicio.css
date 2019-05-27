@@ -34,7 +34,8 @@ header {
 
 .link-nav {
   /* border: solid 1px blue; */
-  margin-left: 8vw;
+  margin-left: 6vw;
+  width: auto !important;
 }
 
 .listanav a {
@@ -46,12 +47,12 @@ header {
 }
 
 .listanav a:hover {
-  border-bottom: #7d1c57 2px solid;
+  border-bottom: #8A0736 2px solid;
   font-size: 101%;
 }
 
 i {
-  color: #7d1c57;
+  color: #8A0736;
 }
 
 /* ----------navbar responsive toggler------------ */
@@ -111,7 +112,7 @@ button {
 
 .tituloSeccion {
   font-size: 100px;
-  color: #7d1c57;
+  color: #8A0736;
   font-weight: 200;
   letter-spacing: 10pt !important;
 }
@@ -246,7 +247,7 @@ button {
 }
 
 .hrFooter {
-  background-color: #7d1c57;
+  background-color: #8A0736;
   height: 1px;
   width: 55vw;
 }
@@ -257,7 +258,7 @@ button {
 }
 
 .contactoUser:hover {
-  color: #7d1c57;
+  color: #8A0736;
 }
 
 .seccion2 {
@@ -290,7 +291,7 @@ a.avisoPrivacidad {
 }
 
 a.avisoPrivacidad:hover {
-  border-bottom: solid 2px #7d1c57;
+  border-bottom: solid 2px #8A0736;
   font-size: 108%;
 }
 
@@ -338,7 +339,7 @@ a.avisoPrivacidad:hover {
   }
 
   .drop-rojo{
-    color: #7d1c57;
+    color: #8A0736;
   }
   .img_arrow {
     width: 1.5em;
@@ -398,7 +399,7 @@ a.avisoPrivacidad:hover {
   }
   .tituloSeccion {
     font-size: 35px;
-    color: #7d1c57;
+    color: #8A0736;
     font-weight: 300;
     letter-spacing: 4pt !important;
     margin-top: 0.5em;
