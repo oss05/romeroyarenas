@@ -34,7 +34,7 @@ header {
 
 .link-nav {
   /* border: solid 1px blue; */
-  margin-left: 6vw;
+  margin-left: 4vw;
   width: auto !important;
 }
 
@@ -114,7 +114,7 @@ button {
   font-size: 100px;
   color: #8A0736;
   font-weight: 200;
-  letter-spacing: 10pt !important;
+  /* letter-spacing: 10pt !important; */
 }
 
 /* --------fin header -----------
