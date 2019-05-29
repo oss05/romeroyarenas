@@ -49,8 +49,16 @@ i {
   color: #8A0736;
 }
 
+.hero{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.7);
+  width: 60%;
+}
+
 .hero img{
-  width: 250px;
+  width: 300px;
 }
 /* ----------navbar responsive toggler------------ */
 
@@ -100,7 +108,10 @@ button {
 /* --------fin toggler-------------*/
 
 .contenedorSeccion {
-  padding: 7em 14em;
+  padding: 7em 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 /* --------------- fin header ---------------------------- */
